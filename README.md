@@ -98,7 +98,7 @@ Possible enhancements to expand this project:
 - Add an **employees** table and track which salesperson handled each sale.
 - Add **vehicle transfers** between branches (inventory movement).
 - Add **suppliers** and **purchase orders** for restocking.
-- Build a **Python analysis notebook** that connects to the database and visualizes data.
+- ✅ Build a **Python analysis notebook** that connects to the database and visualizes data (see `notebooks/car_dealership_analysis.ipynb`).
 - Create a **Power BI or Tableau dashboard** for sales and inventory insights.
 - Develop a **REST API** using Flask or FastAPI to expose inventory and sales endpoints.
 - Add **stored procedures** for automated restocking suggestions.
@@ -121,3 +121,16 @@ This project uses:
 
 This project is open-source and available for learning, portfolio use, or extension.  
 Feel free to use, modify, or build upon it.
+
+## 9. Python Analysis Notebook
+
+The Jupyter notebook in `notebooks/car_dealership_analysis.ipynb` connects to the
+MySQL database and provides visual analysis of:
+
+- Revenue by branch
+- Top-selling models
+- Low-stock vehicles
+- Inventory totals per branch
+- Customer spending
+
+
